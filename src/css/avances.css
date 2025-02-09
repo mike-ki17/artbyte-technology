@@ -91,11 +91,11 @@ ul{
     }
 }
 
-
 /* === bloques de semestres === */
+
 .container-view-semestres {
     max-width: 100%;
-    height: 120vh;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,15 +104,32 @@ ul{
 }
 
 .bloques-semestres {
-    width: 100%;
+    width: 80%;
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap; /* Permitir que los elementos se ajusten en nuevas filas */
     justify-content: space-between; /* Distribuir los elementos de forma uniforme */
     gap: 200px; /* Espaciado entre los elementos */
     align-items: flex-start; /* Alinear los elementos desde arriba */
-    flex-direction: column;
+    /* flex-direction: column; */
 }
+
+.bloq{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.bloq-2{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+
+}
+
 
 .btn-semestre-left, .btn-semestre-right {
     display: flex;
